@@ -6,6 +6,9 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [
     tanstackStart({
+      spa: {
+        enabled: true,
+      },
       server: {
         entry: "./src/server.ts",
       },
