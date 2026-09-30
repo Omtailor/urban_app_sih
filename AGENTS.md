@@ -1,0 +1,3 @@
+- Keep UrbanEye frontend-only: shared React context and localStorage power all issue, alert, simulation, and settings state, because the prototype must never depend on backend services.
+- Keep route-level screens thin and compose them from reusable domain components, because every screen reflects one synchronized city-operations model.
+- Load Leaflet only in the browser through a lazy component, because map libraries access browser globals during import.

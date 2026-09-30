@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { IssuesPage } from "@/components/issues-pages";
+export const Route=createFileRoute("/issues/")({head:()=>({meta:[{title:"Urban Issues — UrbanEye"},{name:"description",content:"Search, filter, and track detected urban issues."},{property:"og:title",content:"Urban Issues — UrbanEye"},{property:"og:description",content:"Search, filter, and track detected urban issues."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}),component:IssuesPage});

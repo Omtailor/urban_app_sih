@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { LiveMapPage } from "@/components/secondary-pages";
+export const Route=createFileRoute("/map")({head:()=>({meta:[{title:"Live Monitoring Map — UrbanEye"},{name:"description",content:"Explore simulated urban detections across Mumbai."},{property:"og:title",content:"Live Monitoring Map — UrbanEye"},{property:"og:description",content:"Explore simulated urban detections across Mumbai."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}),component:LiveMapPage});

@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { AlertsPage } from "@/components/issues-pages";
+export const Route=createFileRoute("/alerts")({head:()=>({meta:[{title:"Alert Center — UrbanEye"},{name:"description",content:"Review prioritized smart-city monitoring alerts."},{property:"og:title",content:"Alert Center — UrbanEye"},{property:"og:description",content:"Review prioritized smart-city monitoring alerts."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}),component:AlertsPage});

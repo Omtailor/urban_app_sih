@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Exec(grep)",
+      "Exec(find)",
+      "Exec(sed)",
+      "Exec(npm run)",
+      "Exec(git remote)",
+      "Exec(git init)"
+    ]
+  }
+}
